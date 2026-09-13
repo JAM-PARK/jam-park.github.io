@@ -133,7 +133,7 @@
 
 - 모든 페이지에 `<title>`, `<meta name="description">`, `<link rel="canonical" href="https://<도메인>/…">`
 - `robots.txt` 는 전체 허용 — **`noindex` 금지**(인증 측이 사이트를 봐야 한다)
-- `sitemap.xml` 에 P1~P3
+- `sitemap.xml` 에 P1~P3 (영문 P5 를 포함했으므로 `/en/`, `/en/apps/sip-note/` 도 함께 등재)
 - Open Graph 태그(선택)
 
 ---
