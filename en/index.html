@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{BIZ_NAME_EN}}</title>
+  <meta name="description" content="Apps made by {{BIZ_NAME_EN}}.">
+  <link rel="canonical" href="https://{{DOMAIN}}/en/">
+  <link rel="alternate" hreflang="ko" href="https://{{DOMAIN}}/">
+  <link rel="alternate" hreflang="en" href="https://{{DOMAIN}}/en/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{BIZ_NAME_EN}}">
+  <meta property="og:title" content="{{BIZ_NAME_EN}}">
+  <meta property="og:description" content="Apps made by {{BIZ_NAME_EN}}.">
+  <meta property="og:url" content="https://{{DOMAIN}}/en/">
+  <meta property="og:image" content="https://{{DOMAIN}}/assets/og.png">
+  <meta property="og:locale" content="en_US">
+  <link rel="icon" href="/assets/sip-note-icon.png" type="image/png">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/en/">{{BIZ_NAME_EN}}</a>
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="/en/#apps">Apps</a></li>
+          <li><a href="/en/#contact">Contact</a></li>
+          <li><a href="/" hreflang="ko" lang="ko">한국어</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <h1>{{BIZ_NAME_EN}}</h1>
+    <p class="lead">Mobile apps made by {{BIZ_NAME_EN}}.</p>
+
+    <h2 id="apps">Apps</h2>
+    <article class="card">
+      <img src="/assets/sip-note-icon.png" alt="" width="64" height="64">
+      <div>
+        <h3><a href="/en/apps/sip-note/">Sip Note</a></h3>
+        <p>A local tasting journal for the glass you just had</p>
+        <p class="muted">Coming soon to Google Play · <a href="/apps/sip-note/privacy/" hreflang="ko">Privacy policy (Korean)</a></p>
+      </div>
+    </article>
+
+    <h2 id="contact">Contact</h2>
+    <p>For questions about our apps, please email us.</p>
+    <p><a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a></p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <dl>
+        <dt>Business name</dt>
+        <dd>{{BIZ_NAME_EN}} (<span lang="ko">{{BIZ_NAME_KO}}</span>)</dd>
+        <!-- Show after issuance: <dt>Representative</dt><dd>{{REPRESENTATIVE}}</dd> -->
+        <!-- Show after issuance: <dt>Business registration no.</dt><dd>{{BIZ_REG_NO}}</dd> -->
+        <dt>Address</dt>
+        <dd lang="ko">{{ADDRESS}}</dd>
+        <dt>Email</dt>
+        <dd><a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a></dd>
+      </dl>
+      <p>© 2026 {{BIZ_NAME_EN}}</p>
+    </div>
+  </footer>
+</body>
+</html>

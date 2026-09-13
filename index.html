@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{BIZ_NAME_KO}}</title>
+  <meta name="description" content="{{BIZ_NAME_KO}}({{BIZ_NAME_EN}})에서 만드는 앱을 소개합니다.">
+  <link rel="canonical" href="https://{{DOMAIN}}/">
+  <link rel="alternate" hreflang="ko" href="https://{{DOMAIN}}/">
+  <link rel="alternate" hreflang="en" href="https://{{DOMAIN}}/en/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{BIZ_NAME_KO}}">
+  <meta property="og:title" content="{{BIZ_NAME_KO}}">
+  <meta property="og:description" content="{{BIZ_NAME_KO}}({{BIZ_NAME_EN}})에서 만드는 앱을 소개합니다.">
+  <meta property="og:url" content="https://{{DOMAIN}}/">
+  <meta property="og:image" content="https://{{DOMAIN}}/assets/og.png">
+  <meta property="og:locale" content="ko_KR">
+  <link rel="icon" href="/assets/sip-note-icon.png" type="image/png">
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+<body>
+  <a class="skip" href="#main">본문 바로가기</a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/">{{BIZ_NAME_KO}}</a>
+      <nav class="site-nav" aria-label="주요 메뉴">
+        <ul>
+          <li><a href="/#apps">앱</a></li>
+          <li><a href="/#contact">문의</a></li>
+          <li><a href="/en/" hreflang="en" lang="en">English</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <h1>{{BIZ_NAME_KO}}</h1>
+    <p class="lead">{{BIZ_NAME_KO}}({{BIZ_NAME_EN}})에서 만드는 모바일 앱을 소개합니다.</p>
+
+    <h2 id="apps">앱</h2>
+    <article class="card">
+      <img src="/assets/sip-note-icon.png" alt="" width="64" height="64">
+      <div>
+        <h3><a href="/apps/sip-note/">Sip Note</a></h3>
+        <p>마신 한 잔을 사진·점수·장소로 남기는 로컬 테이스팅 노트</p>
+        <p class="muted">Google Play 출시 준비 중 · <a href="/apps/sip-note/privacy/">개인정보처리방침</a></p>
+      </div>
+    </article>
+
+    <h2 id="contact">문의</h2>
+    <p>앱과 서비스에 관한 문의는 이메일로 보내 주세요.</p>
+    <p><a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a></p>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <dl>
+        <dt>상호</dt>
+        <dd>{{BIZ_NAME_KO}} ({{BIZ_NAME_EN}})</dd>
+        <!-- 발급 후 표시: <dt>대표자</dt><dd>{{REPRESENTATIVE}}</dd> -->
+        <!-- 발급 후 표시: <dt>사업자등록번호</dt><dd>{{BIZ_REG_NO}}</dd> -->
+        <dt>주소</dt>
+        <dd>{{ADDRESS}}</dd>
+        <dt>이메일</dt>
+        <dd><a href="mailto:{{CONTACT_EMAIL}}">{{CONTACT_EMAIL}}</a></dd>
+      </dl>
+      <p>© 2026 {{BIZ_NAME_KO}}</p>
+    </div>
+  </footer>
+</body>
+</html>
