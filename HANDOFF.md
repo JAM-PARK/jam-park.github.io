@@ -49,7 +49,7 @@
 |---|---|---|---|
 | `DOMAIN` | `<도메인>` | 미정 | 구입 전. 등록자 명의는 본인 |
 | `GITHUB_OWNER` | `JAM-PARK` | **확정** (2026-09-13) | 레포 소유 계정 |
-| `REPO_NAME` | `org-site` | 임시 (2026-09-13) | 로컬 `~/Desktop/workspace/jam-park/org-site`. 도메인이 정해지면 이름 변경. 원격 레포는 아직 없음 |
+| `REPO_NAME` | `org-site` | 임시 (2026-09-13) | 로컬 `~/Desktop/workspace/jam-park/org-site`. 도메인이 정해지면 이름 변경. 원격 `https://github.com/JAM-PARK/org-site` (2026-09-13 생성, **private** — Pages 켤 때 public 전환) |
 | `BIZ_NAME_KO` | `<상호(국문)>` | 미정 | **사업자등록증 표기와 글자 단위로 일치** |
 | `BIZ_NAME_EN` | `<상호(영문)>` | 미정 | **D-U-N-S(D&B) 등록 표기와 일치** |
 | `REPRESENTATIVE` | `<대표자명>` | 미정 | 표시 여부는 §5.3 결정 |
