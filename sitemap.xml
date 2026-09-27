@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://{{DOMAIN}}/</loc></url>
-  <url><loc>https://{{DOMAIN}}/apps/sip-note/</loc></url>
-  <url><loc>https://{{DOMAIN}}/apps/sip-note/privacy/</loc></url>
-  <url><loc>https://{{DOMAIN}}/en/</loc></url>
-  <url><loc>https://{{DOMAIN}}/en/apps/sip-note/</loc></url>
+  <url><loc>https://jam-park.github.io/</loc></url>
+  <url><loc>https://jam-park.github.io/apps/sip-note/</loc></url>
+  <url><loc>https://jam-park.github.io/apps/sip-note/privacy/</loc></url>
+  <url><loc>https://jam-park.github.io/en/</loc></url>
+  <url><loc>https://jam-park.github.io/en/apps/sip-note/</loc></url>
 </urlset>

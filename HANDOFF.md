@@ -49,13 +49,13 @@
 |---|---|---|---|
 | `DOMAIN` | `<도메인>` | 미정 | 구입 전. 등록자 명의는 본인 |
 | `GITHUB_OWNER` | `JAM-PARK` | **확정** (2026-09-13) | 레포 소유 계정 |
-| `REPO_NAME` | `org-site` | 임시 (2026-09-13) | 로컬 `~/Desktop/workspace/jam-park/org-site`. 도메인이 정해지면 이름 변경. 원격 `https://github.com/JAM-PARK/org-site` (2026-09-13 생성, **private** — Pages 켤 때 public 전환) |
+| `REPO_NAME` | `jam-park.github.io` | **확정** (2026-09-27) | 로컬 `~/Desktop/workspace/jam-park/org-site`. `org-site` 에서 이름 변경 — 사이트 링크가 루트 기준(`/assets/…`)이라 사용자 사이트(`https://jam-park.github.io/`)로 서빙해야 깨지지 않는다. **public**. 도메인을 사면 이 레포에 커스텀 도메인을 붙인다 |
 | `BIZ_NAME_KO` | `<상호(국문)>` | 미정 | **사업자등록증 표기와 글자 단위로 일치** |
 | `BIZ_NAME_EN` | `<상호(영문)>` | 미정 | **D-U-N-S(D&B) 등록 표기와 일치** |
 | `REPRESENTATIVE` | `<대표자명>` | 미정 | 표시 여부는 §5.3 결정 |
 | `BIZ_REG_NO` | `<사업자등록번호>` | **없음** — 발급 전 | 표시 여부는 §5.3 결정 |
 | `ADDRESS` | `<사업장 주소>` | 미정 | 사업자등록증과 일치 |
-| `CONTACT_EMAIL` | `<공개 문의 이메일>` | 미정 | 개인 주소와 분리한 **지원용 주소를 새로 만들기로 결정**(2026-08-16). 이 주소가 앱 개인정보처리방침·스토어 연락처와 같아야 한다 |
+| `CONTACT_EMAIL` | `chwk05@gmail.com` | **확정** (2026-09-27) | 지원용 주소를 따로 만들려던 결정(2026-08-16)은 보류. 앱 개인정보처리방침·Play 스토어 연락처와 같은 값 |
 
 > **사이트 파일의 자리표시자 표기 (구현 시 결정).** HTML 본문에 `<도메인>`을 그대로 쓰면 태그로 파싱되므로
 > 레포 파일에서는 `{{DOMAIN}}`, `{{BIZ_NAME_KO}}` 처럼 **`{{키}}`** 형식을 쓴다. 값이 확정되면 레포 루트에서 치환한다:
@@ -257,7 +257,7 @@ curl -s -o /dev/null -w "%{http_code}\n" "https://$DOMAIN/no-such-page"       # 
 
 | 항목 | 값 |
 |---|---|
-| 사이트 URL | |
+| 사이트 URL | `https://jam-park.github.io/` (임시 배포 2026-09-27 — 커스텀 도메인 없이 github.io. 상호는 개인 계정 개발자명 JAM-PARK, 주소는 비공개) |
 | 레포 URL | |
 | 배포 커밋 | |
 | HTTPS 인증서 발급 확인일 | |
@@ -266,7 +266,7 @@ curl -s -o /dev/null -w "%{http_code}\n" "https://$DOMAIN/no-such-page"       # 
 | Play Console 이 요구한 소유권 확인 방식 | DNS TXT / HTML 파일 / meta 태그 / 기타: |
 | Play Console 인증 완료일 | |
 | "계정 유형 변경" 옵션 노출 여부 | 노출 / 미노출 |
-| 개인정보처리방침 URL (스토어 등록용) | `https://<도메인>/apps/sip-note/privacy/` |
+| 개인정보처리방침 URL (스토어 등록용) | `https://jam-park.github.io/apps/sip-note/privacy/` (도메인 확보 시 교체) |
 | 미해결 이슈 | |
 
 ---
